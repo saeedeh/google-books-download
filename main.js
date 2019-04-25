@@ -1,6 +1,6 @@
 
 var zipJSUTL='https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.js';
-var fileSaverURL='https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js';
+var fileSaverURL='https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js';
 function loadLibraries(srcURL) {
     var script = document.createElement("script"); // Make a script DOM node
     script.src = srcURL // Set it's src to the provided URL
